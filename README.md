@@ -40,15 +40,16 @@ Add, update, and delete fashion items with image previews.
 
 ---
 
-## 📁 Folder Structure
+👩‍💼 Developed by
 
-madushi-fashion-pos/
-│
-├── db/ # Data arrays (items, customers, cart, orders)
-├── controllers/ # Logic for item, customer, order handling
-├── models/ # JS models (Customer, Item, Order, Cart)
-├── assets/ # Images, icons, styles
-├── index.html # Main UI file
-├── style.css # Custom styling
-└── script.js # Bootstrap and event handling
+Thushini Akashi
 
+For Madushi Fashion, 2025
+
+
+---
+
+## 🚀 How to Run
+
+1. Clone this repository:
+https://github.com/thushini21/madushi-fashion-pos.git
