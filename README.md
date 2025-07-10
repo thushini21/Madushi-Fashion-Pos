@@ -3,13 +3,21 @@
 Madushi Fashion POS is a browser-based Point of Sale (POS) system designed for a fashion retail store. It helps streamline sales operations, manage customers and inventory, and simplify order placement with a clean and responsive user interface.
 
 
+
+
 🔧 Technologies Used
 
 Frontend: HTML, CSS, Bootstrap, jQuery
 
+
+
 Backend: JavaScript (Module-based)
 
+
+
 Data Handling: In-memory arrays (for customer, item, cart, and order data)
+
+
 
 
 
@@ -19,6 +27,8 @@ Data Handling: In-memory arrays (for customer, item, cart, and order data)
 
 
 🛒 Item Management: Add, update, and delete fashion items with image previews.
+
+
 
 
 🧾 Order Management:
@@ -34,6 +44,8 @@ Real-time quantity adjustments.
 
 
 Order summary with discounts and net total calculation.
+
+
 
 
 📈 Dashboard Summary:
@@ -73,7 +85,7 @@ Clone this repository:
 bash
 Copy
 Edit
-git clone https://github.com/your-username/madushi-fashion-pos.git
+git clone [https://github.com/your-username/madushi-fashion-pos.git](https://github.com/thushini21/Madushi-Fashion-Pos.git)
 
 Open index.html in your web browser.
 
@@ -81,7 +93,11 @@ Start managing your store seamlessly!
 
 
 
+
+
 💡 Future Improvements
+
+
 Connect to a backend database (e.g., MySQL or Firebase)
 
 Add login & authentication system
@@ -90,6 +106,16 @@ Print order receipts
 
 Integrate barcode scanner support
 
+
+
+
+
 👩‍💼 Developed by
+
+
 Thushini Akashi
-For Madushi Fashion, 2025
+
+
+For Madushi Fashion,
+
+2025
