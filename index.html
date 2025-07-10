@@ -54,7 +54,7 @@
         }
 
         .card-text{
-            color: gold;
+            color: #3f1067;
             font-weight: bold;
         }
 
@@ -65,6 +65,22 @@
             background: rgba(256, 256, 256, 0.6);
             box-shadow: 0 2px 15px rgba(256, 256, 256, 0.25);
         }
+        .custom-navbar {
+            background-color: purple !important; /* purple background */
+        }
+
+        .btn-purple {
+            background-color: purple !important;   /* Base purple */
+            color: white !important;               /* White text */
+            border: none !important;               /* Border remove */
+            font-weight: bold;                     /* Bold text */
+        }
+
+        .btn-purple:hover {
+            background-color: indigo !important;   /* Hover deep purple */
+            color: #fff !important;
+        }
+
 
     </style>
 
@@ -89,7 +105,7 @@
                             <label for="password" class="form-label">Password</label>
                             <input type="password" class="form-control" id="password" placeholder="Enter your password" required>
                         </div>
-                        <button type="submit" class="btn btn-warning w-100 " style="margin:3vw 0">Login</button>
+                        <button type="submit" class="btn btn-purple w-100" style="margin:3vw 0">Login</button>
                     </form>
                 </div>
             </div>
@@ -103,7 +119,7 @@
 
     <!-------------------------------------------- Navbar ------------------------------------------------>
 
-    <nav class="navbar navbar-expand-lg fw-bolder bg-warning">
+    <nav class="navbar navbar-expand-lg fw-bolder custom-navbar">
         <div class="container-fluid">
             <a class="navbar-brand" style="font-size: 2rem"> MADHUSHI CLOSET 🌸👗</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -212,7 +228,7 @@
                         <label for="address" class="form-label">Address</label>
                         <textarea class="form-control" id="address" rows="3" placeholder="Enter Address" required></textarea>
                     </div>
-                    <button type="button" class="btn btn-warning w-100" id="add-customer-btn">Add Customer</button>
+                    <button type="button" class="btn btn-purple w-100" id="add-customer-btn">Add Customer</button>
                 </form>
             </div>
         </div>
@@ -279,7 +295,7 @@
                     <div class="mb-3" id="imagePreviewContainer" style="display: none;">
                         <img id="imagePreview" style="display: none; width: 100px; height: 100px; border: 2px solid black;" alt="Image Preview">
                     </div>
-                    <button type="button" class="btn btn-warning w-100" id="add-item-btn">Add Item</button>
+                    <button type="button" class="btn btn-purple w-100" id="add-item-btn">Add Item</button>
                 </form>
             </div>
         </div>
@@ -364,7 +380,7 @@
                         <label for="quantity" class="form-label">Quantity</label>
                         <input type="number" class="form-control" id="quantity" placeholder="Enter quantity" required>
                     </div>
-                    <button type="button" class="btn btn-warning w-100" id="addorderbtn">Add to Cart</button>
+                    <button type="button" class="btn btn-purple w-100" id="addorderbtn">Add to Cart</button>
                 </form>
             </div>
         </div>
@@ -409,7 +425,7 @@
         </div>
 
         <div class="text-end mt-3">
-            <button class="btn btn-warning" id="placeOrderBtn" style="margin-bottom: 3vw;">Place Order</button>
+            <button class="btn btn-purple" id="placeOrderBtn" style="margin-bottom: 3vw;">Place Order</button>
         </div>
 
     </div>
