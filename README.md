@@ -36,7 +36,7 @@ Add, update, and delete fashion items with image previews.
 
 ## 🖼️ Screenshot
 
-<img width="877" height="880" alt="Screenshot 2025-07-10 172230" src="https://github.com/user-attachments/assets/ae657137-af1d-481b-b04e-8f40ccb806a2" />
+<img width="742" height="802" alt="Screenshot 2025-08-31 203005" src="https://github.com/user-attachments/assets/b3653343-3b75-4418-8c0e-f6a19204dfa1" />
 
 ---
 
